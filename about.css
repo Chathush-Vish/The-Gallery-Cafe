@@ -1,0 +1,14 @@
+.abt-hero {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(./assets/ab-hero.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.abt-hero p {
+   color: #fff;
+   font-size: 2em;
+   font-weight: 400;
+   padding: 10px 20px;
+   border: 2px solid #fff;
+}

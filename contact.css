@@ -1,0 +1,22 @@
+.con-hero {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(./assets/contact.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.con-hero p {
+   color: #fff;
+   font-size: 2em;
+   font-weight: 400;
+   padding: 10px 20px;
+   border: 2px solid #fff;
+}
+
+.con-det img {
+   border-radius: 10px;
+}
+
+.con-det h2 {
+   font-size: 2.7em;
+}

@@ -1,0 +1,76 @@
+.ser-hero {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(./assets/service.jpg);
+   background-size: cover;
+   background-position: bottom;
+}
+
+.menu-hero {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(./assets/hero-1.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.menu-hero p {
+   color: #fff;
+   font-size: 2em;
+   font-weight: 400;
+   padding: 10px 20px;
+   border: 2px solid #fff;
+}
+
+.ser-hero p {
+   color: #fff;
+   font-size: 2em;
+   font-weight: 400;
+   padding: 10px 20px;
+   border: 2px solid #fff;
+}
+
+/* menu */
+.menu h2 {
+   font-size: 2.7em;
+   text-transform: capitalize;
+}
+
+.menu .food p {
+   font-size: 18px;
+}
+
+.menu .food strong {
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+.menu .line {
+   width: 1px;
+   height: 250px;
+   background-color: #434343;
+}
+
+.menu .f-price p {
+   color: #fc1552;
+   font-weight: 600;
+}
+
+/* parking */
+.park h2 {
+   font-size: 2.7em;
+}
+
+.park p {
+   line-height: 30px;
+   text-align: justify;
+}
+
+.park .line {
+   background-color: #505050;
+}
+
+.park img {
+   width: 100%;
+   height: 350px;
+   border-radius: 10px;
+   object-fit: cover;
+}

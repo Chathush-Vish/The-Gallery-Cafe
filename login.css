@@ -1,0 +1,211 @@
+/* Colors */
+:root {
+   --primaryColor: #ffa51d;
+   --primaryBlack: #111111;
+   --seconderyCream: #f5dea8;
+   --lightGreen: #b5e48c;
+   --mainWhite: #ffffff;
+   --seconderyText: #2f3e46;
+}
+
+/* Globel styles */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   transition: all 0.2s ease-in-out;
+}
+
+body {
+   color: var(--primaryBlack);
+   font-family: "Poppins", sans-serif;
+}
+
+a {
+   text-decoration: none;
+   color: var(--primaryBlack);
+}
+
+ul {
+   list-style: none;
+}
+
+button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 500;
+   font-size: 0.95em;
+   cursor: pointer;
+   border-radius: 4px;
+}
+
+input:focus {
+   outline: none;
+}
+
+textarea:focus {
+   outline: none;
+}
+
+h1,
+h2 {
+   transition: all ease-in-out 0.2s;
+}
+
+/* style classes */
+.flex {
+   display: flex;
+   align-items: start;
+}
+
+.center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.between {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.between-y {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   align-items: start;
+   justify-content: space-between;
+}
+
+.column {
+   display: flex;
+   flex-direction: column;
+}
+
+.start {
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   flex-direction: column;
+}
+
+.w-100 {
+   width: 100%;
+}
+
+.w-50 {
+   width: 50%;
+}
+
+.vh-100 {
+   height: 100vh;
+}
+
+.vh-50 {
+   height: 50vh;
+}
+
+.padding-x {
+   padding-left: 150px;
+   padding-right: 150px;
+}
+
+.padding-y {
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+
+.marging-x {
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+.marging-y {
+   margin-top: 70px;
+   margin-bottom: 70px;
+}
+
+.pt {
+   padding-top: 50px;
+}
+
+.g-1 {
+   gap: 10px;
+}
+
+.g-2 {
+   gap: 20px;
+}
+
+.g-3 {
+   gap: 30px;
+}
+
+.g-4 {
+   gap: 40px;
+}
+
+.g-5 {
+   gap: 50px;
+}
+
+.g-8 {
+   gap: 80px;
+}
+
+.login {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+      url(./assets/hero-2.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.login p {
+   font-size: 20px;
+}
+
+.login small {
+   margin-bottom: 20px;
+}
+
+.login form {
+   width: 450px;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 50px;
+}
+
+.login form input {
+   width: 100%;
+   height: 40px;
+   border: 1px solid #e3e4e7;
+   border-radius: 3px;
+   padding: 0 20px;
+}
+
+.login .line {
+   width: 100%;
+   height: 1px;
+   background-color: #e3e4e7;
+}
+
+.login .login-btn {
+   background-color: #111;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+.login .sign-up {
+   cursor: pointer;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 40px;
+   font-size: 12px;
+   background-color: #e3e4e7;
+}

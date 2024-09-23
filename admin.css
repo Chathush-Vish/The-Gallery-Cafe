@@ -1,0 +1,189 @@
+/* adamin dashboard */
+.db-aside {
+   position: fixed;
+   width: 300px;
+   height: 100vh;
+   top: 0;
+   left: 0;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(./assets/hero-2.jpg);
+   background-size: cover;
+   background-position: left;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: space-between;
+   padding-bottom: 30px;
+}
+
+.db-det {
+   margin-left: 300px;
+   margin-top: -30px;
+}
+
+.db-aside .logo {
+   color: #fff;
+   width: 100%;
+   font-size: 1em;
+   padding: 20px;
+   text-transform: uppercase;
+}
+
+.db-aside .logo h3 {
+   font-weight: 500;
+}
+
+.db-aside .tab-link {
+   color: var(--mainWhite);
+   padding: 20px 25px;
+   border-bottom: 1px solid #353535;
+   width: 100%;
+   cursor: pointer;
+}
+
+.db-aside .tab-link.active {
+   width: 100%;
+   padding: 20px 25px;
+   background-color: var(--mainWhite);
+   color: #111111;
+}
+
+.dashboard-btn {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0 20px;
+}
+
+.dashboard-btn .visit-btn {
+   width: 100%;
+   border: none;
+   background-color: #fff;
+   padding: 15px 0;
+   color: var(--mainWhite);
+   border-radius: 3px;
+}
+
+.dashboard-btn .visit-btn:hover {
+   background-color: #e3e4e7;
+}
+
+.db-det .sec {
+   display: none;
+   align-items: center;
+   justify-content: start;
+   padding: 70px;
+}
+
+.db-det .sec.active {
+   display: flex;
+}
+
+/* your tours */
+.y-tour {
+   margin-top: 90px;
+   background-color: #e3e4e7;
+   border-radius: 10px;
+   padding: 50px;
+}
+
+.y-tour p {
+   margin-bottom: 50px;
+   font-size: 1.6em;
+}
+
+.y-tour-container table {
+   color: #505151;
+   width: 100%;
+   margin-bottom: 50px;
+}
+
+.y-tour-container td {
+   border: 1px solid #d1d1d1;
+   border-collapse: collapse;
+   padding: 8px 15px;
+   border-spacing: 0;
+}
+
+.y-tour-container .reqType {
+   color: #222;
+   /* background-color: #008455; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 11px;
+   width: 60px;
+   height: 25px;
+   border-radius: 5px;
+}
+
+.y-tour-container table th {
+   font-weight: 600;
+}
+
+.y-tour-container tbody tr td {
+   font-size: 14px;
+}
+
+.y-tour-container .res-type {
+   padding: 3px 6px;
+   border-radius: 5px;
+   background-color: var(--primaryBlack);
+   color: #fff;
+   font-size: 13px;
+}
+
+.y-tour-container .action div {
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 12px;
+   width: 60px;
+   height: 25px;
+}
+
+.y-tour-container .action div a {
+   color: #fff;
+}
+
+.y-tour-container span {
+   display: flex;
+   gap: 2px;
+   align-items: center;
+   justify-content: center;
+}
+
+.y-tour-container .action {
+   gap: 5px;
+}
+
+.y-tour-container .action a {
+   color: #fff;
+}
+
+.y-tour-container .action .res-approve {
+   background-color: #008455;
+}
+
+.y-tour-container .action .res-reject {
+   background-color: rgb(252, 79, 79);
+   margin-top: 2px;
+}
+.y-tour-container .action .res-update {
+   margin-top: 3px;
+   background-color: #7c7c7c;
+}
+
+#add-res-manualy {
+   margin-bottom: 10px;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   background-color: #222;
+}
+
+#add-res-manualy a {
+   color: #fff;
+}
